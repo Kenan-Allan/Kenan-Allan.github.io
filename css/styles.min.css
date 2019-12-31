@@ -5,42 +5,16 @@
   margin: -60px 0 0; /* negative fixed header height */
 }
 
- header {
-  height: 100vh;
-  width: 100%
-  background: no-repeat center center scroll;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  box-sizing: border-box;
-  position: relative;
-}
-
-.header.txt {
-	text-align: left;
-}
-
-.parallax {
-	background-image: url(../img/04.jpg);
-	height: 100vh;
-}
-
 .header.txt h1{
-	font-weight: lighter;
 	font-size: 2em;
 }
 
 .body {
-	padding-top: 10vw;
 	padding-bottom: 10vw;
 	display: flex;
 	display: inline-block;
 	padding-left: 10vw;
 	padding-right: 10vw;
-}
-
-.header {
-	position:relative; top:-15vh;
 }
 
  body{
@@ -63,14 +37,10 @@
  	background-color:#000!important;
  }
 
- .rounded-pill{
- 	border-radius:5rem;
- }
-
  .navbar-custom{
  	padding-top:1rem;
  	padding-bottom:1rem;
- 	background-color:rgba(0,0,0,.8);
+ 	background-color:rgba(0,0,0,.6);
  }
 
  .navbar-custom .navbar-brand{
@@ -109,39 +79,6 @@
 
  header.masthead .masthead-content .masthead-subheading{
  	font-size:2rem;
- }
-
- header.masthead .bg-circle{
- 	z-index:0;
- 	position:absolute;
- 	border-radius:100%;
- 	background:linear-gradient(0deg,#ee0979 0,#ff6a00 100%);
- }
-
- header.masthead .bg-circle-1{
- 	height:90rem;
- 	width:90rem;
- 	bottom:-55rem;
- 	left:-55rem;
- }
-
- header.masthead .bg-circle-2{
- 	height:50rem;
- 	width:50rem;
- 	top:-25rem;
- 	right:-25rem;
- }header.masthead .bg-circle-3{
- 	height:20rem;
- 	width:20rem;
- 	bottom:-10rem;
- 	right:5%;
- }
-
- header.masthead .bg-circle-4{
- 	height:30rem;
- 	width:30rem;
- 	top:-5rem;
- 	right:35%;
  }
 
  @media (min-width:992px){
@@ -185,6 +122,7 @@
  		border-color:#c50!important;
  	}
 
- 	.btn-secondary:focus{
+ 	.btn-secondary:focus {
  		box-shadow:0 0 0 .2rem rgba(255,106,0,.5);
- 	}
+	 }
+}

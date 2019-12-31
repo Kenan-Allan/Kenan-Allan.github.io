@@ -1,1 +1,27 @@
-/**/
+.header-bg {
+    position: relative;
+    background-image: url(../img/12.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    
+}
+
+#header-text {
+    position: absolute;
+    top: 35vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+header {
+    margin-top: -215px;
+}
+
+.contact-info {
+    display: inline-block;
+    position: absolute;
+    left: 10vw;
+}
